@@ -63,6 +63,10 @@ header{
 .img-bg2{
     background-image: url(../img/img-top2.jpg);
 }
+.img-bg3{
+    background-image: url(../img/img-top3.jpg);
+
+}
 .img-top{
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,6 +115,9 @@ iframe{
 .centrado{
     margin: 0 auto;
 }
+.text-center{
+    text-align: center;
+}
 .subtitulo{
     font-size: 1.7rem;
 }
@@ -120,9 +127,19 @@ iframe{
 .mb-1{
     margin-bottom: 1rem;
 }
+.mt-1{
+    margin-top: 1rem;
+
+}
 .contenedor{
     max-width: 90%;
     margin: 0 auto;
+}
+.active{
+    background-color: var(--verdeOscuro);
+    color: var(--blanco);
+    border-radius: 1rem;
+
 }
 @media (min-width: 768px) {
     .contenedor{
