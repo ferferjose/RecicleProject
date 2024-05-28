@@ -221,3 +221,9 @@ footer a:hover{
     border-radius: 1rem;
     font-size: 1.3rem;
 }
+
+.clasContact{
+    list-style: none;
+    text-align: left;
+    font-weight: bold;
+}
