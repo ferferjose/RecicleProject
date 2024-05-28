@@ -110,6 +110,18 @@ iframe{
     margin-bottom: 3rem;
     border-radius: .5rem;
 }
+.campoContacto{
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.campocontacto p{
+    
+}
 
 /* Reutilizables */
 .centrado{
