@@ -59,13 +59,21 @@ header{
 }
 .img-bg{
     background-image: url(../img/img-top.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 .img-bg2{
     background-image: url(../img/img-top2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 .img-bg3{
     background-image: url(../img/img-top3.jpg);
-
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 .img-top{
     background-repeat: no-repeat;
