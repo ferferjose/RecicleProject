@@ -13,6 +13,7 @@
 html{
     font-size: 62.5%;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     font-size: 16px; /*1rem = 10px*/
@@ -60,6 +61,7 @@ header{
 .img-bg{
     background-image: url(../img/img-top.jpg);
     background-position: center;
+    
 }
 .img-bg2{
     background-image: url(../img/img-top2.jpg);
@@ -69,19 +71,19 @@ header{
     background-image: url(../img/img-top3.jpg);
     background-position: center;
 }
-@media (min-width: px) {
+@media (min-width: 768px) {
     .img-bg{
-        background-attachment: fixed;
         background-size: cover;
+        background-attachment: fixed;
 
     }
     .img-bg2{
-        background-attachment: fixed;
         background-size: cover;
+        background-attachment: fixed;
     }
     .img-bg3{
-        background-attachment: fixed;
         background-size: cover;
+        background-attachment: fixed;
     }
 }
 .img-top{
@@ -111,7 +113,6 @@ iframe{
 @media (min-width: 768px) {
     .card-container{
         grid-template-columns: repeat(2, 1fr);
-    
     }
 }
 .card{
@@ -145,6 +146,15 @@ iframe{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.correo{
+    text-decoration: none;
+    color: var(--texto);
+    transition: 1.2s;
+}
+.correo:hover{
+    color: var(--verdeOscuro);
+    text-decoration: underline;
 }
 .corrector{
     max-width: 100%;
