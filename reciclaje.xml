@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<?xml version="1.0" encoding="UTF-8"?>
 <recycling_statistics>
     <city name="Badajoz">
-        <percentage>45</percentage>
-        <year>2023</year>
+        <percentage>PORCENTAJE: 45%</percentage>
+        <year> AÑO: 2023</year>
+        <space>NO ACTUALIZADO 2024</space>
     </city>
 </recycling_statistics>
-
-
+<?xml-stylesheet href="style/estilo.css"?>

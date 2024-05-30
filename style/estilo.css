@@ -1,0 +1,25 @@
+recycling_statistics{
+    text-align: center;
+}
+percentage{
+    display: block;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    background-color: #2E7D32;
+    color: white;
+    margin-bottom: 0.3rem;
+}
+year{
+    display: block;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    background-color: #2E7D32;
+    color: white;
+}
+space{
+    margin-top: 0.3rem;
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    display: block;
+    background-color: #2E7D32;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    color: white;
+}

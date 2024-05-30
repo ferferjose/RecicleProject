@@ -105,6 +105,9 @@ iframe{
     border: none;
     border-radius: 2rem;
 }
+.porcentaje{
+    height: 10rem;
+}
 .card-container{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
